@@ -1,0 +1,25 @@
+body { 
+    margin: 0;
+    background-color: blanchedalmond;
+}
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 5%;
+}
+.container {
+    display: flex;
+    margin-top: 5%;
+justify-content: center;
+
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+td {    
+    width: 100px;
+    height: 100px; 
+    background-color:red;
+    border-radius: 50%;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "dom-task",
+  "version": "1.0.0",
+  "description": "[Информация о релизе Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "coverage": "jest --coverage",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VG90sp/Dom-task.git"
+  },
+  "author": "VG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VG90sp/Dom-task/issues"
+  },
+  "homepage": "https://github.com/VG90sp/Dom-task#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.1",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.4.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.10.1",
+    "html-loader": "^2.1.2"
+  }
+}
